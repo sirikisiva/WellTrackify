@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    min-height: 100vh;
+    margin: 0;
+}
+.sign-bg{
+    background: #0d47a1;
+    min-height: 100vh;
+}
+.sign-app-name{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+   padding: 2rem;
+}
+.sign-box{
+    background: #fff !important;
+    border-radius: 10px;
+    max-width: 420px;
+    margin: 10px auto 60px auto !important; 
+    padding: 35px;
+    box-shadow: -7px 7px 0px rgba(0, 0, 0, 0.2233);
+}
+.sign-log{
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+}
+.sign-google{
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    height: 42px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 1.4rem;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+}
+.google-width{
+    width: 40px;
+}
+.login{
+    margin-top: 1.8rem;
+    width: 100%;
+    color:#fff ;
+    background-color: #0d47a1;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+}
+
+.account {
+    cursor: pointer;
+}
+
+.account:hover {
+    color: #0d47a1;
+    cursor: pointer;
+}
+.dot{
+    width: 5px;
+    height: 5px;
+    border: 1px solid;
+    border-radius: 6px;
+    background: #000;
+    top: 6px;
+    position: relative;
+    margin: 0.3rem;
+}

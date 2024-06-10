@@ -1,0 +1,102 @@
+.bg{
+    background-color: #fff;
+    min-height: 100vh;
+}
+.headerBar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #0d47a1; 
+    z-index: 1000; 
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+.appName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #ffffff;
+}
+.headerList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.eachList {
+    padding: 0.8rem;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.eachList:hover {
+    text-decoration: underline; 
+}
+
+.signInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
+    padding-right: 3rem;
+}
+.signIn{
+    padding: 2rem;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;  
+}
+.signUp{
+    padding: 5px 12px 5px 12px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;  
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+.mainHeading{
+    letter-spacing: -2px;
+    margin: 3rem;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.1;
+    color: #0d47a1;
+    display: flex;
+    justify-content: center;
+}
+.desc{
+    font-size: 20px;
+    color: #696880;
+    display: flex;
+    justify-content: center;
+    margin: 0rem 10rem 1rem 10rem;
+}
+.modal.show .modal-dialog {
+    transform: none;
+    margin-top: 5rem !important;
+}
+.modal-title{
+    color: #0d47a1;
+}
+.highlight {
+    font-size: 14px;
+    margin-left: 1.5rem;
+  }
+  .modal {
+    --bs-modal-width: 700px !important;
+  }
+  .submit{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .input-error {
+    border: 1px solid red !important; 
+  }
+  .success{
+    color: green !important;
+  }
+  
